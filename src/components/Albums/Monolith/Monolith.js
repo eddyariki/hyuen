@@ -55,7 +55,7 @@ export default class Monolith extends Component {
                            sneak peek (Ego)
                         </div>
                         <div className="monolith-link-preview">
-                            <iframe className="monolith-ego" src="https://www.youtube.com/embed/eSId8lrb2nI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="ego"</iframe>
+                            <iframe className="monolith-ego" src="https://www.youtube.com/embed/eSId8lrb2nI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="ego"></iframe>
                         </div>
                     </div>
                 </div>
