@@ -42,8 +42,8 @@ export default class Monolith extends Component {
                 <div className="monolith-card"> 
 
                     <div className="monolith-jacket">
-                        <img src={monolith} className="monolith-image"/>
-                        <img src={monolith_2} className="monolith-background" style={this.transform()}/>
+                        <img src={monolith} className="monolith-image" alt="album-jacket"/>
+                        <img src={monolith_2} className="monolith-background" style={this.transform()} alt="album-background"/>
                     </div>      
                     
                     <div className="monolith-info">
@@ -55,7 +55,7 @@ export default class Monolith extends Component {
                            sneak peek (Ego)
                         </div>
                         <div className="monolith-link-preview">
-                            <iframe className="monolith-ego" src="https://www.youtube.com/embed/eSId8lrb2nI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe className="monolith-ego" src="https://www.youtube.com/embed/eSId8lrb2nI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="ego"</iframe>
                         </div>
                     </div>
                 </div>
