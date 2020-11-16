@@ -100,7 +100,7 @@ export default class ThreeDCard extends Component {
                         
 
                         <div className="card c4" style={this.transform(400*current_media,0,-50)}>
-                            <Link to="contact" className="contacts-text">contact</Link>
+                            <a href="mailto:webmaster@example.com" className="contacts-text">contact</a>
                         </div>
 
                         <div className="card c2" style={this.transform(0,0,-150)}>

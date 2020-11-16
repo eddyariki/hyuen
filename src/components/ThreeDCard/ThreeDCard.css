@@ -122,7 +122,7 @@ a:focus { text-decoration: none; color: black; }
     color:  #e6e2d8;
 }
 .contacts-text:visited{
-    color:  #e6e2d8;
+    color:  #e6e2d8 !important;
 }
 .contacts-text:hover{
     text-decoration: none; 
