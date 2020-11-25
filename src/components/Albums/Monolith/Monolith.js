@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import monolith from "../../../data/monolith.png"
 import monolith_2 from "../../../data/iso.jpg"
 import "./Monolith.css"
+import "./MonolithMedia.css"
 
 export default class Monolith extends Component {
     state = {
@@ -48,8 +49,8 @@ export default class Monolith extends Component {
                     
                     <div className="monolith-info">
                         <h1 className="monolith-header">first album: monolith</h1>
-                        <div className="monolith-link"><a href="https://www.itunes.com" target="_blank" rel="noopener noreferrer">itunes</a></div>
-                        <div className="monolith-link"><a href="https://www.itunes.com" target="_blank" rel="noopener noreferrer">spotify</a></div>
+                        <div className="monolith-link"><a onClick={e=>e.preventDefault()} href="https://www.itunes.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:"line-through"}}>itunes <span style={{fontSize:"1rem"}}>*coming soon</span></a></div>
+                        <div className="monolith-link"><a  onClick={e=>e.preventDefault()} href="https://www.spotify.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:"line-through"}}>spotify <span style={{fontSize:"1rem"}}>*coming soon</span></a></div>
                         <div className="monolith-link"><a href="https://soundcloud.com/official-hyuen" target="_blank" rel="noopener noreferrer">soundcloud</a></div>
                         <div className="monolith-text">
                            sneak peek (Ego)

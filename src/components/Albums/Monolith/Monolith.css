@@ -17,6 +17,8 @@
     width: 35vw;
     height: 35vw;
     border: 2vw #3b3934 solid;
+    justify-self: center;
+    align-self: center;
 }
 .monolith-image{
     width: 35vw;
