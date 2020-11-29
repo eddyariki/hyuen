@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import PhoneThreeDCard from './PhoneThreeDCard'
 import './ThreeDCard.css'
 import './ThreeDCardMedia.css'
+import "../../fonts/Athelas-Regular.ttf"
 
 export default class ThreeDCard extends Component {
     state = {

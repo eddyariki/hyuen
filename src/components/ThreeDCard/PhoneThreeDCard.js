@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import "./PhoneThreeDCard.css"
 import "./PhoneThreeDCardMedia.css"
+import "../../fonts/Athelas-Regular.ttf"
 
 export default class PhoneThreeDCard extends Component {
     transform_style = (x,y,z) =>{
@@ -38,7 +39,7 @@ export default class PhoneThreeDCard extends Component {
                 </a>
 
                 <Link to="albums/monolith" className="albums-text-phone">monolith</Link>
-                <Link to="contact" className="contacts-text-phone">contact</Link>
+                <a href="mailto:webmaster@example.com" className="contacts-text-phone">contact</a>
             </div> 
 
         )

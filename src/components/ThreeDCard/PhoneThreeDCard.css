@@ -1,3 +1,10 @@
+
+@font-face{
+    font-family:"athelas";
+    src: local("athelas"), 
+        url(../../fonts/Athelas-Regular.ttf) /* Safari, Android, iOS */;
+}
+
 .phone-container{
     display:grid;
     position: relative;
@@ -8,9 +15,11 @@
     overflow: hidden;
 }
 .text-phone{
+    
     justify-self: start;
     grid-row-start: 6;
-    font-family: serif;
+    font-family:athelas;
+    font-weight: normal;
     font-size: 3.5em;
     position: absolute;
     border: solid #3b3934 2px;
@@ -25,7 +34,7 @@
 .insta-phone{
     justify-self: end;
     grid-row-start: 8;
-    font-family: serif;
+    font-family: athelas;
     font-size: 3.5em;
     position: absolute;
     border: solid #3b3934 2px;
@@ -38,7 +47,7 @@
 .twitter-phone{
     justify-self: end;
     grid-row-start: 4;
-    font-family: serif;
+    font-family: athelas;
     font-size: 3.5em;
     position: absolute;
     border: solid #3b3934 2px;
@@ -51,7 +60,7 @@
 .albums-text-phone{
     justify-self: end;
     grid-row-start: 3;
-    font-family: serif;
+    font-family: athelas;
     font-size: 2.5rem;
     position: absolute;
     transform-origin: center;
@@ -72,7 +81,7 @@
 .contacts-text-phone{
     justify-self: start;
     grid-row-start: 11;
-    font-family: serif;
+    font-family: athelas;
     font-size: 1.5rem;
     position: absolute;
     border: solid #3b3934 2px;
